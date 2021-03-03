@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(158, 155, 155);
+    background-image: url('images/snake.jpg');
+    background-repeat: no-repeat;
+} 
+header h1 {
+    color: black;
+    border: 6px double rgb(49, 190, 6);
+    border-radius: 1em;
+    width: 20em;
+    text-align: center;
+}
+#zone {
+    background-color:#425f77;
+    border: 8px solid rgb(56, 54, 54);
+    margin-top: 5em;
+
+}
+#ALeft{
+    border: 6px double rgb(49, 190, 6);
+    border-radius: 1em;
+    text-align: center;
+    width: 12em;
+    float: left;
+    margin-top: 10em;
+}
+#ALeft h2{
+    text-decoration: underline;
+}
+#ALeft p{
+        font-size: 20px;
+}
+#ARight{
+    border: 6px double rgb(49, 190, 6);
+    border-radius: 1em;
+    text-align: center;
+    width: 12em;
+    float: right;
+    margin-top: 10em;
+}
+#ARight h2{
+    text-decoration: underline;
+}
+#ARight p{
+        font-size: 20px;
+}

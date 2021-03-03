@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+
+</head>
+<body>
+    <header>
+        <h1 id="85"><u>Bienvenue </u></h1>        
+    </header> 
+    <main id="master">
+        <p id="86">J'ai séléctionné un nombre entre 1 et 100, rien que pour toi <br></p>
+        <div class="game" id="game">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+        <p>Tu as <u>10 tentatives</u> pour trouver la solution</p>
+        <div class="game2"><br>
+            <label for="guessField">Choisis un nombre </label><input type="text" id="guessField" class="guessField" placeholder="nombre">
+            <input  type="submit" value="Soumettre" class="guessSubmit">
+        </div>
+        
+    </main> 
+    <footer id="flooter" style="display: none;">
+            <form action="annexe2.html">
+            <input class="envoyer" type="submit" value="un nouveau jeu ?">
+            </form>
+    </footer>
+<script src="../assets/js/guess.js"></script>
+</body>
+</html>
